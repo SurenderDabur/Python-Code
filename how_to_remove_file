@@ -1,0 +1,8 @@
+#https://www.facebook.com/surender.hacker/
+
+import os
+
+if os.path.exists("hello.txt"):
+	os.remove("hello.txt")
+else:
+	print("no file")
